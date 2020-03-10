@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ReserveHub</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="test.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo"><b>ReserveHub</b></div>
+      <div class="header-list">
+        <ul>
+          <li>プログラミングとは</li>
+          <li>学べるレッスン</li>
+          <li>お問い合わせ</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-upper">
+      <div class="copy-container">
+        <h1>Reserve Room Anywhere<span>.</span> Anytime<span>.</span></h1>
+      </div>
+   </div>
+
+   <div class="main-lower">
+     <div class ="input-form">
+       <form name="form1" id="id_form1" action="">
+         <h3>Select Date</h3>
+         <input name="textBox" id="id_textBox1" class="nice-box" type="date" value="select date">
+         <input name="textBox" id="id_textBox2" class="nice-box" type="time" value="hh:mm">
+         <input name="textBox" id="id_textBox3" class="nice-box" type="time" value="hh:mm">
+         <input class="nice-bottun" type="button" value="Exec" onclick="onButtonClick();">
+       </form>
+       <div id="output1"></div>
+       <div id="output2"></div>
+       <div id="output3"></div>
+     </div>
+   </div>
+  </body>
+</html>
