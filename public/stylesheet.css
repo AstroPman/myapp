@@ -1,0 +1,113 @@
+body {
+  font-family: "Avenir Next";
+  margin:0px;
+  background-image: url("sample.jpg");
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+.header {
+  background-color: rgba(255,200,0,0.8);
+  color: black;
+  height: 90px;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+  margin:0px;
+}
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+
+}
+.copy-container {
+  text-align: center;
+  margin:30px;
+}
+.copy-container h1 {
+  color:white;
+  font-size: 50px;
+
+}
+.copy-container span {
+  color: #ff4a4a;
+}
+.main-lower{
+  background-color: rgba(100,100,100,0.8);
+  paddin:30px;
+  height:200px;
+  width:100%;
+  margin:20;
+}
+
+.input-form {
+  float: left;
+  color:white;
+}
+.input-form h3{
+  width:300px;
+  margin:20px;
+}
+.input-form input{
+  float: left;
+  margin:0px 20px;
+}
+
+.nice-box{
+  position: relative;
+  display: block;
+  width: 200px;
+  margin-top: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #a0a0a0;
+  outline: none;
+}
+
+.nice-bottun{
+  position: relative;
+  display: block;
+  width: 200px;
+  margin-top: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #a0a0a0;
+  outline: none;
+}
+
+input,textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  width:100%;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+
+
+}
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+.footer-list {
+  float: right;
+}
+.footer-list li {
+  padding-bottom: 20px;
+}
