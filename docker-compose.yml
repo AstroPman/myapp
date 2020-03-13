@@ -1,0 +1,6 @@
+version: "3"
+services:
+  myapp:
+    image: koppepan/myapp:latest
+    ports:
+      - 49160:8080
